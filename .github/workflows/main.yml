@@ -6,8 +6,7 @@ on:
 on:
   pull_request:
   runs on: windows-latest
-    branches:
-    - main
+    print: echo 'OK'
     
 on:
   schedule:
