@@ -5,6 +5,7 @@ on:
     - release/*
 on:
   pull_request:
+  runs on: windows-latest
     branches:
     - main
     
